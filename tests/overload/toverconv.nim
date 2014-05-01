@@ -1,6 +1,7 @@
 discard """
   file: "toverconv.nim"
-  output: '''4'''
+  line: 14
+  errormsg: '''type mismatch: got (T2)'''
 """
 # tests making more than one hop through converter functions
 type T1 = distinct int
